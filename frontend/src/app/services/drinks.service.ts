@@ -21,22 +21,22 @@ export class DrinksService {
   url = environment.apiServerUrl;
 
   public items: { [key: number]: Drink } = {};
-  //   1: {
-  //     id: 1,
-  //     title: "matcha shake",
-  //     recipe: [
-  //       {
-  //         name: "milk",
-  //         color: "grey",
-  //         parts: 1,
-  //       },
-  //       {
-  //         name: "matcha",
-  //         color: "green",
-  //         parts: 3,
-  //       },
-  //     ],
-  //   },
+  // 1: {
+  //   id: 1,
+  //   title: "matcha shake",
+  //   recipe: [
+  //     {
+  //       name: "milk",
+  //       color: "grey",
+  //       parts: 1,
+  //     },
+  //     {
+  //       name: "matcha",
+  //       color: "green",
+  //       parts: 3,
+  //     },
+  //   ],
+  // },
   //   2: {
   //     id: 2,
   //     title: "flatwhite",
